@@ -6,7 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'hi') {
-    msg.reply('hi');
+  if (msg.content === 'ping') {
+    msg.reply('Pong!');
   }
 });
+client.login(process.env.BOT_TOKEN);
