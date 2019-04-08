@@ -38,5 +38,4 @@ client.on('message', msg => {
     msg.reply('mmkn ttfdl el Guorp dh tklm feh el STAFF atfdl https://www.facebook.com/groups/OneDropCF/.!');
   }
 });
-
 client.login(process.env.BOT_TOKEN);
