@@ -35,7 +35,8 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === '-help') {
-    msg.reply('mmkn ttfdl el Guorp dh tklm feh el STAFF atfdl https://www.facebook.com/groups/OneDropCF/.!');
+    msg.reply('mmkn ttfdl el Guorp dh tklm feh el STAFF atfdl https://www.facebook.com/groups/OneDropCF/!');
   }
 });
+
 client.login(process.env.BOT_TOKEN);
