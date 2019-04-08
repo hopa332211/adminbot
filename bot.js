@@ -42,6 +42,7 @@ client.on('message', msg => {
 });
 client.login(process.env.BOT_TOKEN);
 
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -51,7 +52,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === '-help') {
-    msg.reply('Mmkn tfdl tklm 7d mn el STAFF fe el Guorp https://www.facebook.com/groups/OneDropCF/');
+    msg.reply('Mmkn tfdl tklm 7d mn el STAFF fe el Guorp https://www.facebook.com/groups/OneDropCF /');
   }
 });
 client.login(process.env.BOT_TOKEN);
